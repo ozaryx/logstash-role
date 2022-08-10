@@ -8,7 +8,7 @@ Role Variables
 There is only two variables that you can redefine in your playbook.
 ```yaml
 logstash_version: "8.3.3" # Use for download only this version of elastic
-logstash_home: "/opt/logstash/{{ logstash_version }}" # Use for unpackage distro and create ES_HOME variable
+logstash_home: "/opt/logstash/{{ logstash_version }}" # Use for unpackage distro and create LOGSTASH_HOME variable
 ```
 
 Example Playbook
